@@ -1,0 +1,18 @@
+<view class="detail-container">
+  <view class="item">
+    <view>{{detail.address}}</view>
+  </view>
+  
+  <view class="item">
+    <view>{{detail.type == 'sell' ? '小姐姐' : '小哥哥'}}</view>
+  </view>
+
+  <view class="item">
+    <view>{{detail.message}}</view>
+  </view>
+
+  <view class="item">
+    <view>{{detail.contact}}</view>
+  </view>
+
+</view>

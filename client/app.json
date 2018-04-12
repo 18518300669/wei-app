@@ -1,0 +1,16 @@
+{
+  "pages":[   
+    "pages/index/index",
+    "pages/publish/publish",
+    "pages/detail/detail",
+    "pages/search/search"
+  ],
+  "window":{
+    "backgroundTextStyle":"light",
+    "navigationBarBackgroundColor": "#03bbd5",
+    "navigationBarTitleText": "附近生日搜索平台",
+    "navigatnBarTextStyle":"white",
+    "backgroundColor":"red",
+    "enablePullDownRefresh":true
+  }
+}

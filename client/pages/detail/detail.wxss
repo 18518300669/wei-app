@@ -1,0 +1,14 @@
+.detail-container {
+  height: 100%;
+}
+
+.item {
+  padding: 30rpx;
+  border-bottom: 1px solid #ccc;
+  display: flex;
+}
+
+.item > view {
+  font-size: 36rpx;
+  color: #666;
+}

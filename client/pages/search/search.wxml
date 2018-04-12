@@ -1,0 +1,16 @@
+<view class="search-container">
+  <view class="search">
+    <view class="input">
+      <input bindinput="handleKeywordsChange" placeholder='请输入关键字'></input>
+    </view>
+    <view class="btn" bindtap='handleSearchTap'>搜索</view>
+  </view>
+  <view class="list">
+    <scroll-view scroll-y>
+      <view class="item" wx:for="{{list}}" wx:key="item.id">
+        <view class="address">{{item.address}}</view>
+        <view class="message">{{item.message}}</view>
+      </view>
+    </scroll-view>
+  </view>
+</view>
